@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Booking.com" skipped="0" tests="5" time="590.9" timestamp="2022-09-25T19:08:03.613044-05:00[America/Bogota]"><testcase name="Ingresar al home de Booking.com y realizar consulta de alojamientos para la ciudad de medellin"/><testcase name="Ingresar al home de Booking.com y realizar consulta disponibilidad de alquiler de coches"/><testcase name="Ingresar al home de Booking.com y realizar consulta de las atracciones turisticas"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+PageObject.consultaAtraccionesTuristicasPaeObject.ingresoSitioTuristico(consultaAtraccionesTuristicasPaeObject.java:89)&#13;
+Steps.consultaAtraccionesTuristicasStep.ingresoSitioTuristico(consultaAtraccionesTuristicasStep.java:18)&#13;
+Definitions.consultaAtraccionesTuristicasDefinition.ingresa_en_el_campo(consultaAtraccionesTuristicasDefinition.java:28)&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+</system-err></testcase><testcase name="Ingresar al home de Booking.com y realizar consulta de disponibilidad de vuelos"/><testcase name="Ingresar al home de Booking.com y realizar consulta de disponibilidad de taxis al aeropuerto"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+PageObject.consultaTaxisAeropuertoPageObject.validacionConsultExitosa(consultaTaxisAeropuertoPageObject.java:143)&#13;
+Steps.consultaTaxisAeropuertoStep.validacionConsultExitosa(consultaTaxisAeropuertoStep.java:26)&#13;
+Definitions.consultaTaxisAeropuertoDefinition.hace_validacion_de_consulta_exitosa(consultaTaxisAeropuertoDefinition.java:37)&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+</system-err></testcase></testsuite>
